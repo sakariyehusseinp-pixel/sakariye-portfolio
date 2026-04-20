@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background: #020617;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    color: #38bdf8;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.projects {
+    text-align: center;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: #334155;
+}
+
+/* Contact */
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 30px;
+}
